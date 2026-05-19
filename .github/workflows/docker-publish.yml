@@ -34,7 +34,7 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
 
       # 4. 自动提取动态 Tag (main分支=latest，Release=版本号)
-      # ${{ github.repository }} 会自动解析为你的 a63414262/webssh-pro
+      # ${{ github.repository }} 会自动解析为你的 xiaokeai1987/webssh-pro
       - name: Extract metadata (tags, labels)
         id: meta
         uses: docker/metadata-action@v5
